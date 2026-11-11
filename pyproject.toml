@@ -1,0 +1,11 @@
+[project]
+name = "3d-printer"
+version = "0.1.0"
+description = "Pièces paramétriques CadQuery pour impression FDM"
+# 3.12 : les roues OCP de CadQuery ne suivent pas les Python les plus récents
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "cadquery",
+    "trimesh",
+    "matplotlib",
+]
