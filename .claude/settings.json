@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "ask": [
+      "mcp__bambu__print_3mf",
+      "mcp__bambu__start_print",
+      "mcp__bambu__start_print_job",
+      "mcp__bambu__print_3mf_bambu_network",
+      "mcp__bambu__upload_gcode"
+    ]
+  }
+}
